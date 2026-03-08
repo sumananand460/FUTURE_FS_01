@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Suman Anand — Computer Science Engineering Student & Aspiring Full Stack Web Developer."/>
+  <meta name="keywords" content="Suman Anand, Full Stack Developer, React, JavaScript, Python, Java, Portfolio"/>
+  <meta name="author" content="Suman Anand"/>
+  <title>Suman Anand — Full Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cabinet+Grotesk:wght@400;500;700;800;900&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<canvas id="particles-canvas"></canvas>
+
+<!-- CURSOR -->
+<div id="cur"></div>
+<div id="cur-trail"></div>
+
+<!-- NAV -->
+<nav>
+  <a href="#hero" class="nav-logo">SA<span>.</span></a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#blogs">Blog</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <a href="https://github.com/sumananand460" target="_blank" class="nav-badge">GitHub ↗</a>
+  <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+    <span class="theme-toggle-icon">
+      <i class="fa-solid fa-moon" id="themeIcon"></i>
+    </span>
+  </button>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="orb orb1"></div>
+  <div class="orb orb2"></div>
+  <div class="orb orb3"></div>
+  <div class="orb orb4"></div>
+  <div class="hero-grid-lines"></div>
+
+  <div class="hero-counter">
+    <div class="counter-item">
+      <div class="counter-num" data-count="3">0<span>+</span></div>
+      <div class="counter-label">Languages</div>
+    </div>
+    <div class="counter-item">
+      <div class="counter-num" data-count="2">0<span>+</span></div>
+      <div class="counter-label">Projects</div>
+    </div>
+    <div class="counter-item">
+      <div class="counter-num" data-count="2027">0</div>
+      <div class="counter-label">Graduating</div>
+    </div>
+  </div>
+
+  <div class="hero-content">
+    <p class="hero-eyebrow">Available for Opportunities</p>
+    <h1 class="hero-title">
+      SUMAN
+      <span class="outline">ANAND</span><br>
+      <span class="aqua">Web-Dev.</span>
+    </h1>
+    <div class="hero-sub-row">
+      <p class="hero-tagline">
+        <strong>CS Engineering Student</strong> at Raajdhani Engineering College (REC) —
+        building clean, responsive web applications and chasing high-impact
+        software engineering roles.
+      </p>
+      <div class="hero-ctas">
+        <a href="#projects" class="btn-aqua">View Work</a>
+        <a href="#contact" class="btn-outline">Say Hello →</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-hint">
+    <span>Scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee-wrap">
+  <div class="marquee-track">
+    <span>JavaScript</span><span class="hl">★</span>
+    <span>React</span><span class="hl">★</span>
+    <span>Python</span><span class="hl">★</span>
+    <span>Java</span><span class="hl">★</span>
+    <span>Tailwind CSS</span><span class="hl">★</span>
+    <span>HTML &amp; CSS</span><span class="hl">★</span>
+    <span>Git &amp; GitHub</span><span class="hl">★</span>
+    <span>Full Stack Dev</span><span class="hl">★</span>
+    <!-- duplicate for seamless loop -->
+    <span>JavaScript</span><span class="hl">★</span>
+    <span>React</span><span class="hl">★</span>
+    <span>Python</span><span class="hl">★</span>
+    <span>Java</span><span class="hl">★</span>
+    <span>Tailwind CSS</span><span class="hl">★</span>
+    <span>HTML &amp; CSS</span><span class="hl">★</span>
+    <span>Git &amp; GitHub</span><span class="hl">★</span>
+    <span>Full Stack Dev</span><span class="hl">★</span>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="sec-label reveal">01 — About Me</div>
+  <div class="about-grid">
+    <div class="about-body reveal reveal-delay-1">
+      <h2 class="sec-title">Building the<br>web that matters.</h2>
+      <p>I'm a <strong>Computer Science Engineering student</strong> passionate about building clean and responsive web applications. I enjoy learning modern web technologies and solving real-world problems through code.</p>
+      <p>Currently focused on levelling up in <strong>JavaScript, React, and full-stack development</strong> — actively seeking internships and high-impact software engineering opportunities.</p>
+      <div class="about-edu">
+        <div class="edu-chip">// Engineering</div>
+        <div class="edu-degree">B.Tech — Computer Science & Engineering</div>
+        <div class="edu-college">Raajdhani Engineering College (REC), Bhubaneswar</div>
+        <div class="edu-year">Expected Graduation: 2027</div>
+      </div>
+      <div class="about-edu">
+        <div class="edu-chip">// Schooling</div>
+        <div class="edu-degree">Matriculate (CBSE)</div>
+        <div class="edu-college">O.D.M Public School, Bhubaneswar</div>
+        <div class="edu-year">Year: 2010-2021</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="sec-label reveal">02 — Skills</div>
+  <h2 class="sec-title reveal">What I work with.</h2>
+  <div class="skills-grid">
+    <div class="skill-card reveal">
+      <span class="skill-card-icon aqua-icon"><i class="fa-brands fa-js"></i></span>
+      <div class="skill-card-name">JavaScript</div>
+      <div class="skill-card-type aqua-type">Language</div>
+    </div>
+    <div class="skill-card reveal reveal-delay-1">
+      <span class="skill-card-icon aqua-icon"><i class="fa-brands fa-python"></i></span>
+      <div class="skill-card-name">Python</div>
+      <div class="skill-card-type aqua-type">Language</div>
+    </div>
+    <div class="skill-card reveal reveal-delay-2">
+      <span class="skill-card-icon aqua-icon"><i class="fa-brands fa-java"></i></span>
+      <div class="skill-card-name">Java</div>
+      <div class="skill-card-type aqua-type">Language</div>
+    </div>
+    <div class="skill-card reveal reveal-delay-3">
+      <span class="skill-card-icon blue-icon"><i class="fa-brands fa-react"></i></span>
+      <div class="skill-card-name">React</div>
+      <div class="skill-card-type blue-type">Framework</div>
+    </div>
+    <div class="skill-card reveal">
+      <span class="skill-card-icon blue-icon"><i class="fa-brands fa-html5"></i></span>
+      <div class="skill-card-name">HTML5</div>
+      <div class="skill-card-type blue-type">Web Tech</div>
+    </div>
+    <div class="skill-card reveal reveal-delay-1">
+      <span class="skill-card-icon blue-icon"><i class="fa-brands fa-css3-alt"></i></span>
+      <div class="skill-card-name">CSS3</div>
+      <div class="skill-card-type blue-type">Web Tech</div>
+    </div>
+    <div class="skill-card reveal reveal-delay-2">
+      <span class="skill-card-icon blue-icon"><i class="fas fa-wind"></i></span>
+      <div class="skill-card-name">Tailwind CSS</div>
+      <div class="skill-card-type blue-type">Framework</div>
+    </div>
+    <div class="skill-card reveal reveal-delay-3">
+      <span class="skill-card-icon neutral-icon"><i class="fa-brands fa-git-alt"></i></span>
+      <div class="skill-card-name">Git</div>
+      <div class="skill-card-type">Version Control</div>
+    </div>
+    <div class="skill-card reveal">
+      <span class="skill-card-icon neutral-icon"><i class="fa-brands fa-github"></i></span>
+      <div class="skill-card-name">GitHub</div>
+      <div class="skill-card-type">Platform</div>
+    </div>
+    <div class="skill-card reveal reveal-delay-1">
+      <span class="skill-card-icon neutral-icon"><i class="fa-solid fa-code"></i></span>
+      <div class="skill-card-name">VS Code</div>
+      <div class="skill-card-type">Editor</div>
+    </div>
+    <div class="skill-card reveal reveal-delay-2">
+      <span class="skill-card-icon neutral-icon"><i class="fa-solid fa-file-excel"></i></span>
+      <div class="skill-card-name">MS Excel</div>
+      <div class="skill-card-type">Productivity</div>
+    </div>
+    <div class="skill-card reveal reveal-delay-3">
+      <span class="skill-card-icon neutral-icon"><i class="fa-solid fa-file-powerpoint"></i></span>
+      <div class="skill-card-name">PowerPoint</div>
+      <div class="skill-card-type">Productivity</div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="sec-label reveal">03 — Projects</div>
+  <h2 class="sec-title reveal">Things I've shipped.</span></h2>
+
+  <div class="projects-list">
+    <div class="project-row reveal">
+      <div class="proj-num">01</div>
+      <div class="proj-info">
+        <div class="proj-name">TO-DO List App</div>
+        <div class="proj-desc">A simple yet functional TO-DO list application built with HTML, CSS, and JavaScript.</div>
+      </div>
+      <div class="proj-tags">
+        <span class="proj-tag">HTML</span>
+        <span class="proj-tag">CSS</span>
+        <span class="proj-tag">JavaScript</span>
+        <a href="https://sumananand460.github.io/To-Do-List/" target="_blank" class="proj-tag">Link</a>
+      </div>
+    </div>
+    <div class="project-row reveal reveal-delay-1">
+      <div class="proj-num">02</div>
+      <div class="proj-info">
+        <div class="proj-name">Quiz Game</div>
+        <div class="proj-desc">A fun and interactive quiz application built with HTML, CSS, and JavaScript.</div>
+      </div>
+      <div class="proj-tags">
+        <span class="proj-tag">HTML</span>
+        <span class="proj-tag">CSS</span>
+        <span class="proj-tag">JavaScript</span>
+        <a href="https://sumananand460.github.io/Quiz_Game/" target="_blank" class="proj-tag">Link</a>
+      </div>
+    </div>
+    <div class="project-row reveal reveal-delay-2">
+      <div class="proj-num">03</div>
+      <div class="proj-info">
+        <div class="proj-name">Personal Portfolio Website</div>
+        <div class="proj-desc">This portfolio — designed & developed with HTML, CSS, JavaScript.</div>
+      </div>
+      <div class="proj-tags">
+        <span class="proj-tag">HTML</span>
+        <span class="proj-tag">CSS</span>
+        <span class="proj-tag">JavaScript</span>
+        <span class="proj-tag">React.js</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="projects-cta reveal">
+    <a href="https://github.com/sumananand460" target="_blank" class="btn-outline">All Projects on GitHub ↗</a>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- BLOGS -->
+<section id="blogs">
+  <div class="sec-label reveal">04 — Blog</div>
+  <h2 class="sec-title reveal">Thoughts & Learnings.</h2>
+  <div class="blogs-grid">
+    <div class="blog-card reveal">
+      <div class="blog-card-header">
+        <span class="blog-tag">// JavaScript</span>
+        <div class="blog-title">Understanding Closures in JavaScript — A Practical Guide</div>
+        <div class="blog-excerpt">Closures are one of the most powerful yet misunderstood features of JavaScript. Learn how they work, why they matter, and how to use them to write cleaner, more efficient code with real-world examples.</div>
+      </div>
+      <div class="blog-card-footer">
+        <span class="blog-meta">Jan 2026 · 5 min read</span>
+        <a href="#" class="blog-read">Read →</a>
+      </div>
+    </div>
+    <div class="blog-card reveal reveal-delay-1">
+      <div class="blog-card-header">
+        <span class="blog-tag">// React</span>
+        <div class="blog-title">Why I Switched from Vanilla JS to React for My Projects</div>
+        <div class="blog-excerpt">After building multiple projects with plain JavaScript, I finally made the leap to React. Here's what changed, what I learned, and why component-based thinking transformed how I approach web development.</div>
+      </div>
+      <div class="blog-card-footer">
+        <span class="blog-meta">Feb 2026 · 4 min read</span>
+        <a href="#" class="blog-read">Read →</a>
+      </div>
+    </div>
+    <div class="blog-card reveal reveal-delay-2">
+      <div class="blog-card-header">
+        <span class="blog-tag">// Career</span>
+        <div class="blog-title">What I Learned Building My First Full Stack Project as a Student</div>
+        <div class="blog-excerpt">Building a complete full-stack app from scratch taught me more than any tutorial ever could. From API design to deployment headaches, here are the hard lessons that shaped me as a developer.</div>
+      </div>
+      <div class="blog-card-footer">
+        <span class="blog-meta">Mar 2026 · 6 min read</span>
+        <a href="#" class="blog-read">Read →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="sec-label reveal">05 — Contact</div>
+  <h2 class="sec-title reveal">Let's build together.</span></h2>
+
+  <div class="contact-inner">
+    <div class="contact-left reveal">
+      <h3>Open to opportunities &amp; collabs</h3>
+      <p>Have a project, internship offer, or just want to say hello? My inbox is always open — I respond within 24–48 hours.</p>
+      <div class="contact-links">
+        <a href="/cdn-cgi/l/email-protection#4d3e38202c232c232c2329797b7d0d2a202c2421632e2220" class="clink">
+          <div class="clink-icon">@</div>
+          <span class="__cf_email__" data-cfemail="592a2c343837383738373d6d6f69193e34383035773a3634">sumananand470@gmail.com</span>
+        </a>
+        <a href="https://github.com/sumananand460" target="_blank" class="clink">
+          <div class="clink-icon">GH</div>
+          GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/suman-anand-104b55313/" target="_blank" class="clink">
+          <div class="clink-icon">in</div>
+          LinkedIn
+        </a>
+      </div>
+    </div>
+
+    <form class="form-wrap reveal reveal-delay-1" id="contactForm">
+      <div class="field-row">
+        <div class="field">
+          <label>Name</label>
+          <input type="text" id="fname" placeholder="Your name" required/>
+        </div>
+        <div class="field">
+          <label>Email</label>
+          <input type="email" id="femail" placeholder="your@email.com" required/>
+        </div>
+      </div>
+      <div class="field">
+        <label>Subject</label>
+        <input type="text" id="fsubject" placeholder="What's this about?" required/>
+      </div>
+      <div class="field">
+        <label>Message</label>
+        <textarea id="fmessage" placeholder="Tell me about your project or opportunity..." required></textarea>
+      </div>
+      <div class="form-status" id="fstatus"></div>
+      <button type="submit" class="btn-aqua" style="align-self:flex-start">Send Message →</button>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p class="footer-left">© 2026 <span>Suman Anand</span> — Built with passion.</p>
+  <div class="footer-right">
+    <a href="https://github.com/sumananand460" target="_blank">GitHub</a>
+    <a href="https://www.linkedin.com/in/suman-anand-104b55313/" target="_blank">LinkedIn</a>
+    <a href="#hero">Back to Top</a>
+  </div>
+  <script src="script.js"></script>
+</footer>
